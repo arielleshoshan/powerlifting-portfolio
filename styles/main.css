@@ -1,0 +1,83 @@
+header, footer {
+  background-color: #000C66;
+}
+
+/* General CSS for Body */
+body {
+background-image: url(../images/bb6.png);
+background-repeat: repeat;
+background-repeat: round;
+background-attachment: fixed;
+background-color: #000C66;
+}
+
+#content {
+  background-color: #fff;
+}
+
+/* 1RM Calc CSS */
+        .card {
+        display: block;
+        max-width: 326px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 26px;
+        border-radius: 5px;
+        background-color: #fff;
+
+      }
+      .card-header {
+        padding: 8px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: 1px solid #cccccc;
+        font-size: 18px;
+        font-weight: 700;
+        background-image: linear-gradient(#8B0000, #A52A2A);
+        color: #fff;
+      }
+      .card-body {
+        padding: 20px 40px 20px 40px;
+      }
+      .field {
+        display: flex;
+        justify-content: space-between;
+      }
+      label {
+        font-weight: 400;
+        font-size: 18px;
+      }
+      .label-number {
+        display: block;
+        padding-top: 6px;
+        padding-right: 25px;
+        margin-bottom: 5px;
+      }
+      input[type="number"] {
+        width: 110px;
+        display: block;
+        padding: 8px 12px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        vertical-align: middle;
+        background-color: #fff;
+        border: 1px solid #cdcdcd;
+        border-radius: 5px;
+      }
+      input[type="number"]:focus {
+        border-color: #5c2a73;
+      }
+      hr {
+        border: 0.5px solid #cdcdcd;
+        margin-bottom: 10px;
+      }
+      .calc-result {
+        display: flex;
+        justify-content: center;
+        width: 110px;
+        padding-top: 8px;
+        font-size: 18px;
+        font-weight: 700;
+      }
