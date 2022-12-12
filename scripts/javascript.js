@@ -118,18 +118,18 @@ switch (e.target.getAttribute('id')) {
       document.querySelector('#bicepsTable')
         .style.display = 'block';
       break;
-      case 'triceps':
-        document.querySelector('#tricepsTable')
-          .style.display = 'block';
-        break;
-        case 'shoulders':
-          document.querySelector('#shouldersTable')
-            .style.display = 'block';
-          break;
-          case 'legs':
-            document.querySelector('#legsTable')
-              .style.display = 'block';
-            break;
+    case 'triceps':
+      document.querySelector('#tricepsTable')
+        .style.display = 'block';
+      break;
+    case 'shoulders':
+      document.querySelector('#shouldersTable')
+        .style.display = 'block';
+      break;
+    case 'legs':
+      document.querySelector('#legsTable')
+        .style.display = 'block';
+      break;
   } // end of switch
   // switch does not need default for this
 
